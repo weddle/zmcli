@@ -1,0 +1,20 @@
+/node_modules/
+/coverage/
+*.log
+
+# Local credentials and runtime state
+/.state/
+/.zmcli/
+.env
+.env.*
+*.pem
+*.key
+*cookies*.json
+/personas*.json
+/work-queue*
+
+# Local hidden workspace directories
+/.*/
+/AGENTS.md
+/CLAUDE.md
+/QUEUE-POLICY.md

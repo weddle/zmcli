@@ -1,0 +1,30 @@
+{
+  "name": "zmcli",
+  "version": "1.0.0-rc.1",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "zmcli": "src/cli.mjs",
+    "zoompi": "src/zoommate-tui.mjs"
+  },
+  "scripts": {
+    "cli": "node src/cli.mjs",
+    "start": "node src/cli.mjs",
+    "zoompi": "node src/zoommate-tui.mjs",
+    "verify": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "npm@11.9.0",
+  "dependencies": {
+    "@earendil-works/pi-ai": "0.85.1",
+    "@earendil-works/pi-coding-agent": "0.85.1",
+    "@earendil-works/pi-tui": "0.85.1",
+    "@xmldom/xmldom": "^0.9.12",
+    "image-size": "2.0.2",
+    "tough-cookie": "^6.0.2",
+    "ws": "^8.21.3"
+  }
+}

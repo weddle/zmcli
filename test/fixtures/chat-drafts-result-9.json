@@ -1,0 +1,14 @@
+{
+  "request": {
+    "path": "/xms/drafts/fetch/userid",
+    "body": {
+      "userId": "user-self",
+      "limit": 100
+    },
+    "authentication": "zak"
+  },
+  "response": {
+    "result": 9
+  },
+  "phase": "native-service"
+}

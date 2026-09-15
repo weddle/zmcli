@@ -1,0 +1,23 @@
+{
+  "result": 0,
+  "data": [
+    {
+      "hsession_id": "user-peer:user-peer",
+      "channel_id": null,
+      "name": "Self chat",
+      "type": "chat",
+      "peer_contact_email": "self@example.invalid",
+      "peer_contact_user_id": "user-peer",
+      "i": "0"
+    },
+    {
+      "hsession_id": "channel-native-id",
+      "channel_id": "channel-native-id@conference.xmpp.zoom.us",
+      "name": "Project room",
+      "type": "groupchat",
+      "peer_contact_email": null,
+      "peer_contact_user_id": null,
+      "i": "10"
+    }
+  ]
+}

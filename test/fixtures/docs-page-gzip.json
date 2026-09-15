@@ -1,0 +1,24 @@
+{
+  "sanitized": true,
+  "observedShape": "content.data base64 gzip UTF-8 JSON with content.gzip true",
+  "gzip": true,
+  "pageId": "child",
+  "decoded": {
+    "blocks": {
+      "child": {
+        "id": "child",
+        "type": "BLOCK_TYPE_PAGE",
+        "seq": "a0",
+        "version": 3,
+        "content": { "title": "Sanitized child" }
+      },
+      "paragraph-child": {
+        "id": "paragraph-child",
+        "parentId": "child",
+        "type": "BLOCK_TYPE_PARAGRAPH",
+        "seq": "a0",
+        "content": { "title": "[[0,\"sanitized gzip text\"]]" }
+      }
+    }
+  }
+}

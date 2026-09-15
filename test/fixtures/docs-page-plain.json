@@ -1,0 +1,24 @@
+{
+  "sanitized": true,
+  "observedShape": "content.data base64 UTF-8 JSON",
+  "gzip": false,
+  "pageId": "root",
+  "decoded": {
+    "blocks": {
+      "root": {
+        "id": "root",
+        "type": "BLOCK_TYPE_PAGE",
+        "seq": "a0",
+        "version": 7,
+        "content": { "title": "Sanitized root" }
+      },
+      "paragraph": {
+        "id": "paragraph",
+        "parentId": "root",
+        "type": "BLOCK_TYPE_PARAGRAPH",
+        "seq": "a0",
+        "content": { "title": "[[0,\"sanitized plain text\"]]" }
+      }
+    }
+  }
+}
